@@ -1,12 +1,15 @@
 return {
   -- add gruvbox
   { "catppuccin/nvim" },
+  { "EdenEast/nightfox.nvim" },
 
-  -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin-mocha",
+      colorscheme = "nightfox",
+      -- colorscheme = "catppuccin-latte",
+      -- colorscheme = "dayfox",
+      -- colorscheme = "hippo",
     },
   },
 }
